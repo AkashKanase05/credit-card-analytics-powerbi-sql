@@ -1,5 +1,5 @@
 /* =========================================
-   Credit Card Project – SQL Server Script
+   Credit Card Project â€“ SQL Server Script
    ========================================= */
 
 ------------------------------------------------
@@ -79,7 +79,7 @@ GO
 -- 4. Load CSV Data (Initial Load)
 ------------------------------------------------
 BULK INSERT dbo.cc_detail
-FROM 'C:\Users\akash\Downloads\credit_card.csv'
+FROM 'D:\credit_card.csv' 
 WITH (
     FIRSTROW = 2,
     FIELDTERMINATOR = ',',
@@ -89,7 +89,7 @@ WITH (
 GO
 
 BULK INSERT dbo.cust_detail
-FROM 'C:\Users\akash\Downloads\customer.csv'
+FROM 'D:\customer.csv' 
 WITH (
     FIRSTROW = 2,
     FIELDTERMINATOR = ',',
@@ -102,7 +102,7 @@ GO
 -- 5. Load Additional Data (Week 53)
 ------------------------------------------------
 BULK INSERT dbo.cc_detail
-FROM 'C:\Users\akash\Downloads\cc_add.csv'
+FROM 'D:\cc_add.csv' 
 WITH (
     FIRSTROW = 2,
     FIELDTERMINATOR = ',',
@@ -112,7 +112,7 @@ WITH (
 GO
 
 BULK INSERT dbo.cust_detail
-FROM 'C:\Users\akash\Downloads\cust_add.csv'
+FROM 'D:\cust_add.csv' 
 WITH (
     FIRSTROW = 2,
     FIELDTERMINATOR = ',',
@@ -120,6 +120,7 @@ WITH (
     TABLOCK
 );
 GO
+
 
 
 
