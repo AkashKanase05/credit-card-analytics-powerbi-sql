@@ -66,4 +66,4 @@ The goal is to derive business insights related to revenue trends, customer demo
 ## 👤 Author
 **Akash Kanase**  
 - LinkedIn:[ https://linkedin.com/in/akash-kanase  ](https://www.linkedin.com/in/akash-kanase-60ab56214/)
-- GitHub: https://github.com/AkashKanase
+- GitHub: [https://github.com/AkashKanase](https://github.com/AkashKanase05)
